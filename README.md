@@ -1,4 +1,9 @@
 # Sigma-R17-1.75-upgrade
+
+<p align="center">
+  <img width="300" src="https://github.com/julianCast/Sigma-R17-1.75-upgrade/assets/559677/101828d4-d9fc-4a7a-98ee-f6a7109da221"/>
+</p>
+
 Guia y recursos para convertir tu Sigma R16/R17 de 2.85 a 1.75 sin flasheo de firmware.
 
 📖 Esta guia está basada en este proyecto https://www.printables.com/model/135803-bcn3d-sigma-upgrade-to-175mm, así que si te parece útil por favor déjales un comentario. Las piezas alojadas en la carpeta stl están sacadas de dicho proyecto.
