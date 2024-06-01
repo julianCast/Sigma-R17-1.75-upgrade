@@ -34,6 +34,12 @@ Reemplazar actual tubo 2.85 con 1.75, a excepción del tubo usado bajo filamento
 
 ## Ajustes de G-Code
 
+### Diámetro Filamento
+Seteamos a nivel configuracion de impresora el nuevo diámetro del filamento 1.75.
+```gcode
+M200 D1.75
+```
+
 ### E-steps
 Este motor tiene un ratio diferente al anterior asi que debemos re ajustar los pasos, sigue cualquier [tutorial](https://all3dp.com/2/extruder-calibration-calibrate-e-steps/) para ello. Como ejemplo, a mi me dio 422:
 ```gcode
@@ -48,5 +54,18 @@ M500      ; Graba la configuración en la impresora.
 ```
 
 ## Ajustes Cura Slicer
-WIP
+
+### Impresora
+Añadimos nueva custom FFF printer con los siguientes parámetros, recuerda en la pestaña de Extruders cambiar a 1.75:
+
+![image](https://github.com/julianCast/Sigma-R17-1.75-upgrade/assets/559677/e8c281d7-1e62-4ac9-ad05-992a27c1baf8)
+
+### Profile
+Ahora toca añadir [el perfil de calidad](https://github.com/julianCast/Sigma-R17-1.75-upgrade/blob/main/Sigma_175_fine.curaprofile) que he montado para este mod,  luego en Cura lo importamos:
+
+![image](https://github.com/julianCast/Sigma-R17-1.75-upgrade/assets/559677/e857bf12-7151-4672-9688-f29ee8811a54)
+
+
+
+
 
